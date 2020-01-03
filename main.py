@@ -11,7 +11,6 @@ def generateProblem(n):
 
     for i in range(n):
         petants.append(random.randint(1, 4))
-        # print(petants)
 
     return petants
 
@@ -49,7 +48,9 @@ if __name__ == "__main__":
                 n = int(opts[1][1])
                 petants = generateProblem(n)
                 qu = PetantsQueue(n, petants)
+
                 score = qu.solve()
+
                 print(score)
 
             elif arg == '3':
@@ -64,12 +65,14 @@ if __name__ == "__main__":
                     size = n + i * step
                     ns.append(size)
                     timeList = list()
+
                     for j in range(r):
                         petants = generateProblem(size)
-                        qu = PetantsQueue(n, petants)
+                        qu = PetantsQueue(size, petants)
                         start = time.clock()
                         qu.solve()
                         stop = time.clock()
+
                         timeList.append(stop - start)
 
                     avg = 0
