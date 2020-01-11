@@ -83,6 +83,8 @@ if __name__ == "__main__":
                     timeMeasure.append(avg)
 
                 plt.plot(ns, timeMeasure)
+                plt.ylabel('time')
+                plt.xlabel('n')
                 plt.show()
 
                 for i in range(k):

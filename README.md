@@ -20,6 +20,7 @@ Należy znaleźć sposób obsługi petentów minimalizujący całkowity czas obs
 Porządek ludzi w kolejce jest znany od początku i się nie zmienia.
 
 ####Tryby wykonania
+
     1) main.py -m 1
     2) main.py -m 2 -n <n_value>
     3) main.py -m 3 -n <n_value> -k <number_of_steps> -s <value_of_step> -r <number of instances>
@@ -29,6 +30,7 @@ Porządek ludzi w kolejce jest znany od początku i się nie zmienia.
 3) Proces tesotwania algorytmu z pomiarem czasu dla rosnącego n i porównanie ze złożonością teoretyczną
 
 ####Konwencje danych
+
 Na wejściu podawana jest liczba n (1 <= n <= 10^6), następnie w nowej linii podawanych jest n wartości p oddzielonych spacją
 z zakresu (1 <= p <= 4).
 
@@ -55,6 +57,7 @@ Struktury danych:
 - PetitionersQueue
 
 ####Dekompozycja programu na pliki źródłowe
+
 W folderze dir znajduje się plik PetitionersQueue.py, znajduje się w nim klasa odpowiadająca
 za przechowanie danych i rozwiązanie danego problemu.
 Plik main.py zawiera implementację interfejsu i moduły testujące rozwiązanie.
