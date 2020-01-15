@@ -25,7 +25,7 @@ Porządek ludzi w kolejce jest znany od początku i się nie zmienia.
     2) main.py -m 2 -n <n_value>
     3) main.py -m 3 -n <n_value> -k <number_of_steps> -s <value_of_step> -r <number of instances>
     
-1) Zywkłe uruchomienie programu
+1) Zwykłe uruchomienie programu
 2) Wylosowanie problemu o wielkości n
 3) Proces tesotwania algorytmu z pomiarem czasu dla rosnącego n i porównanie ze złożonością teoretyczną
 
@@ -34,7 +34,7 @@ Porządek ludzi w kolejce jest znany od początku i się nie zmienia.
 Na wejściu podawana jest liczba n (1 <= n <= 10^6), następnie w nowej linii podawanych jest n wartości p oddzielonych spacją
 z zakresu (1 <= p <= 4).
 
-Na wyjściu liczba oznaczjąca ilość minut potrzebną na obsłużenie danej ilości osób
+Na wyjściu liczba oznaczająca ilość minut potrzebną na obsłużenie danej ilości osób
 
 In:  
 6  
